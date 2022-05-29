@@ -25,3 +25,10 @@ Things you may want to cover:
 
 Heroku https://tpole-photo-app.herokuapp.com/ | https://git.heroku.com/tpole-photo-app.git
 
+setting up devise views:
+	1. rails generate bootstrap:install static
+	2. rails g bootstrap:layout application
+	3. rails g devise:views:locale en
+	4. rails g devise:views:bootstrap_templates
+
+
